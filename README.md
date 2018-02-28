@@ -1,12 +1,12 @@
 # music_corner_server
 
-##########环境依赖
+## 环境依赖
 	node v8.0+
 	mysql
 
-##########部署步骤
+## 部署步骤
 
-
+```
 1. 安装依赖
    cnpm install
 
@@ -18,9 +18,9 @@
 
 3. 启动服务器
    npm run dev 
+```
 
-
-#########项目说明
+## 项目说明
 
 1. 使用koa2-generator搭建, app目录 -> 服务端代码逻辑实现, config目录 -> 数据库配置, lib目录 -> 初始化建表代码实现, middlewares
      -> 中间件, routes目录 -> 接口路由文件
